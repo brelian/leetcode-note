@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <a href="asdggfsdjh" id="xxx-url"></a>
+  <button onclick="CopyToClipBoard();">copy</button>
+</body>
+<script>
+  function CopyToClipBoard(){
+    var href = document.getElementById('xxx-url').getAttribute("href");
+    document.write(href);
+    window.clipboardData.setData("Text",href);
+    alert("已复制本页链接,您可以使用Ctrl+V粘贴后,发送给好友!");
+}  
+</script>
+</html>
