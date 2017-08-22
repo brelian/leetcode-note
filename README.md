@@ -98,6 +98,24 @@ Output: 7 -> 0 -> 8
 
 反向遍历两个链表，并求和。
 
+## 问题列表
+- [二进制字符串相加](https://siddontang.gitbooks.io/leetcode-solution/content/string/add_binary.html)
+
+- [反转整数](https://siddontang.gitbooks.io/leetcode-solution/content/math/reverse_integer.html)
+
+- [删除数组指定值的元素](https://siddontang.gitbooks.io/leetcode-solution/content/array/remove_element.html)
+
+- [有序数组去重](https://siddontang.gitbooks.io/leetcode-solution/content/array/remove_duplicates_from_sorted_array.html)
+
+a = [1,2,2,3,4,5,5,6,8]
+
+s[a[i]]++
+
+s = [0,1,2,1,1,2,1,0,1]
+
+s[i] != 0 ? a.push(s[i])
+
+a = [1,2,3,4,5,6,8]
 
 ### 参考链接
 - [https://soulmachine.gitbooks.io/algorithm-essentials/content/java/](https://soulmachine.gitbooks.io/algorithm-essentials/content/java/)
