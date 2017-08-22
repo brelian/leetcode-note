@@ -74,7 +74,7 @@ var twoSum = function(nums, target) {
     }
 	console.log(obj)
 }
-
+```
 ### 总结
 - Duff's Device 优化遍历
 
@@ -82,18 +82,24 @@ var twoSum = function(nums, target) {
 
 
 
-2 -> 3 -> 4
-
-5 -> 6 -> 4
 ## [Add two number](https://leetcode.com/problems/add-two-numbers/description/)
 ### 问题描述
 给定两个链表代表两个非负整数，它们的位数反向存储，每个节点都是一位数。求两个数之和并以链表形式返回。
 
 如：
+
 ```
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
+
 ```
 
 ### 分析
+
 反向遍历两个链表，并求和。
+
+
+### 参考链接
+- [https://soulmachine.gitbooks.io/algorithm-essentials/content/java/](https://soulmachine.gitbooks.io/algorithm-essentials/content/java/)
+
+- [https://siddontang.gitbooks.io/leetcode-solution/content/index.html](https://siddontang.gitbooks.io/leetcode-solution/content/index.html)

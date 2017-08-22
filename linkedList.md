@@ -27,6 +27,28 @@
 ```
 typedef struct Node {
 	int data; // 卫星数据
-	PNODE pNext; // 指针
+	struct Node* pNext; // 指针
 }*PNODE, NODE;
 ```
+
+- 创建链表
+
+	创建首节点 ----> 首位节点相等 ----> 返回首节点的地址
+```
+PNODE create_list(void) {
+	PNODE pHead = (PNODE)malloc(sizeof(NODE));
+
+	// 内存分配失败
+	if (NULL == pHead) {
+	    printf("error!\n");
+    	exit(-1);
+	}
+
+	// 头节点不存有效数据
+	pHead->pNext = NULL;
+	return pHead;
+}
+
+```
+
+- 插入数据
